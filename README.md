@@ -1,16 +1,11 @@
 # Big-Data-Analysis_Variable-and-Model-Selection
 
-##This folder is a model selection and construction project u
-## It will encompass data analysis techniques to decide which model is better than the other
-##It will also entail a variable selection portion for dimension reduction 
-## I do not cover multicolinearity filteration here but will breifly discuss ways to do so 
+It will entail some machine learning techniques in the form of neural networks and classic regression, with data analysis to descide which of the two models perform better and should be used over the other. 
 
-### I wll cover different ways to handle string/factor variables 
-## one way is binarisation (which can become tideous)
-## the other is factor dummying which is more straight forward and better datasets with more variables
+It will also entail a variable selection portion for dimension reduction. I do not cover multicolinearity filteration here but will breifly discuss ways to do so as it is a very important. 
 
-## Want to model total income 
-### They are multiple ways to tackle this problem. 
-## We can split the problem to regression of income on only factor and income against numerics and then piece them back together
-## OR
-## we can do it all together
+String variables are usually a nightmare so I go over stringbinarisation to work with them. There are different and more -believe it or not- numerical ways to handle them which I will go over in a follow up upload for this project. 
+
+I do not perform multicolinearity check here (they are pacakges to do this in the form VIF) but will create a separate file explaining the concept and clever ways around it when working with big data.
+
+The purpose is to model income (income is the dependant variable)
