@@ -9,3 +9,5 @@ String variables are usually a nightmare so I go over stringbinarisation to work
 I do not perform multicolinearity check here (they are pacakges to do this in the form VIF) but will create a separate file explaining the concept and clever ways around it when working with big data.
 
 The purpose is to model income (income is the dependant variable)
+
+Result Summary: With a t.test, it was established the Neural Network is better than regression for this data set, considering the techniques used to construct our regression model.
